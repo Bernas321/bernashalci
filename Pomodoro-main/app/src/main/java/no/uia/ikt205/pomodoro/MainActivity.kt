@@ -11,7 +11,7 @@ import no.uia.ikt205.pomodoro.util.millisecondsToDescriptiveTime
 
 class MainActivity : AppCompatActivity() {
 
-    // If you do not want to initialize a variable in the constructor
+    // If you do not want to initialize a variable in the constructor,
     // instead you want to initialize it later on and if you can guarantee
     // the initialization before using it
     lateinit var timer:CountDownTimer
@@ -126,4 +126,6 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
+
+
 
